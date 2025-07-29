@@ -11,6 +11,13 @@ export default function Title() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const handleContactClick = () => {
+        const footer = document.getElementById("footer");
+        if (footer) {
+            footer.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return(
         <section className="relative min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-teal-900/20"></div>
@@ -43,7 +50,10 @@ export default function Title() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-4 border-2 border-purple-400 rounded-full font-semibold text-lg hover:bg-purple-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105">
+            <button
+              className="px-8 py-4 border-2 border-purple-400 rounded-full font-semibold text-lg hover:bg-purple-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105"
+              onClick={handleContactClick}
+            >
               Contactar Ahora
             </button>
           </div>
