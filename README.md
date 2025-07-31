@@ -1,69 +1,63 @@
-# React + TypeScript + Vite
+# Portfolio Andrea Siles
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido/a al portfolio profesional de Andrea Siles!  
+Este proyecto es una web moderna y visualmente atractiva donde muestro mi experiencia, proyectos y habilidades como **Desarrolladora Frontend** e **Ingeniera de Software**.
 
-Currently, two official plugins are available:
+## 🚀 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El objetivo de este portfolio es ofrecer una experiencia digital única, presentando mi perfil, proyectos destacados y formas de contacto de manera clara y creativa.  
+Incluye animaciones, diseño responsive y efectos visuales para destacar mi trabajo y personalidad profesional.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** + **TypeScript**  
+- **Vite** (entorno de desarrollo ultrarrápido)
+- **TailwindCSS** (estilos modernos y utilitarios)
+- **Lucide React** (iconos SVG)
+- **Vite Plugin Sitemap** (SEO)
+- **ESLint** (calidad de código)
+- **GitHub Pages** (despliegue)
+- **CNAME** para dominio personalizado
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🌐 Demo
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Puedes ver el portfolio online en:  
+[https://andreasiles.es](https://andreasiles.es)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚡ Instalación y ejecución local
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clona el repositorio**
+   ```sh
+   git clone https://github.com/aandreasiles/andrea-portfolio.git
+   cd andrea-portfolio
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. **Instala las dependencias**
+   ```sh
+   npm install
+   ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. **Inicia el entorno de desarrollo**
+   ```sh
+   npm run dev
+   ```
+   La web estará disponible en [http://localhost:5173](http://localhost:5173) (o el puerto que indique la terminal).
+
+4. **Build para producción**
+   ```sh
+   npm run build
+   ```
+
+5. **Previsualiza el build**
+   ```sh
+   npm run preview
+   ```
+
+## 📬 Contacto
+
+¿Quieres trabajar conmigo o tienes alguna consulta?  
+Puedes contactarme desde la propia web o escribiendo a [silesandrea@gmail.com](mailto:silesandrea@gmail.com).
+
+---
+
+**Desarrollado con pasión por Andrea Siles**
