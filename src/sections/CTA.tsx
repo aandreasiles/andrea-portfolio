@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { Mail, MessageCircle } from "lucide-react";
 
 export default function CTA() {
     return(
@@ -13,12 +13,19 @@ export default function CTA() {
                 </p>
             
                 <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-                    <div className="flex items-center space-x-3 text-lg">
+                    <div 
+                        className="flex items-center space-x-3 text-lg cursor-pointer" 
+                        onClick={() => window.location.href = "mailto:silesandrea@gmail.com"}
+                        title="Enviar correo"
+                    >
                         <Mail className="w-6 h-6 text-cyan-400" />
                         <span>silesandrea@gmail.com</span>
                     </div>
-                    <div className="flex items-center space-x-3 text-lg">
-                        <Phone className="w-6 h-6 text-purple-400" />
+                    <div 
+                        className="flex items-center space-x-3 text-lg cursor-pointer" 
+                        onClick={() => window.location.href = "https://wa.me/34722340010"} 
+                        title="Enviar WhatsApp">
+                        <MessageCircle className="w-6 h-6 text-purple-400" />
                         <span>+34 722 340 010</span>
                     </div>
                 </div>

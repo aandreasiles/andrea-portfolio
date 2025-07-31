@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Title() {
@@ -50,6 +51,15 @@ export default function Title() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <a
+              href="https://www.linkedin.com/in/andrea-siles-2bb180208/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
+            >
+              Ver Mi Trabajo
+              <ArrowRight className="inline-block ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            </a>
             <button
               className="px-8 py-4 border-2 border-purple-400 rounded-full font-semibold text-lg hover:bg-purple-400 hover:text-gray-900 transition-all duration-300 transform hover:scale-105"
               onClick={handleContactClick}
