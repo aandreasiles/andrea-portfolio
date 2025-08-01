@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Software Engineer",
+    "company": "Santander Digital Services",
+    "period": "Sept 2023 - Presente",
+    "description": "Desarrollo de software para el sector bancario, incluyendo la implementación de nuevas funcionalidades y la mejora de sistemas existentes. Trabajo en equipo utilizando metodologías ágiles.",
+    "technologies": ["Angular", "TypeScript", "RxJS", "SCSS", "Git"]
+  },
+  {
+    "role": "Frontend Developer",
+    "company": "ETECNIC",
+    "period": "Feb 2023 - Sept 2023",
+    "description": "Desarrollo de aplicación móvil para la gestión de carga de vehículos eléctricos. Implementación de funcionalidades utilizando Ionic y React.",
+    "technologies": ["React", "Ionic", "TypeScript", "CSS", "HTML"]
+  }
+]

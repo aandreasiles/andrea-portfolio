@@ -1,0 +1,11 @@
+{
+  "technical": [
+    "Angular", "React", "TypeScript", "HTML5", "SCSS", "RxJS", "Git", "Jenkins"
+  ],
+  "methodologies": [
+    "SCRUM", "Clean Code", "SOLID", "Agile"
+  ],
+  "soft": [
+    "Trabajo en equipo", "Resolución de problemas", "Proactividad", "Comunicación efectiva", "Aprendizaje continuo"
+  ]
+}
