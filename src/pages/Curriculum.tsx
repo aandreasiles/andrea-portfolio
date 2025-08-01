@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowLeft, Briefcase, GraduationCap, Code, Award, Zap, Users, ShieldCheck } from 'lucide-react';
 
 import experienceData from '../data/curriculum/experience.json';
