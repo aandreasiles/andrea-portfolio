@@ -52,9 +52,7 @@ export default function Title() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://www.linkedin.com/in/andrea-siles-2bb180208/"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/portfolio"
               className="group px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center"
             >
               Ver Mi Trabajo
